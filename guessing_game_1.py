@@ -20,7 +20,7 @@ def main():
     if user_guess == random_number:
         print("Correct guess!")
     else:
-        print("Incorrect. Try again")
+        print("Incorrect. The number was: ".format(random_number))
 
         print("\nDone.")
 
