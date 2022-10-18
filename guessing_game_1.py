@@ -6,11 +6,10 @@
 
 import random
 
-random_number = random.randint(0, 9)  # a number between 0 and 9
-
 
 def main():
     # this function checks if the guess is correct
+    random_number = random.randint(0, 9)  # a number between 0 and 9
 
     # input
     user_guess = int(input("Enter a number between 0-9: "))
